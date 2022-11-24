@@ -1,0 +1,237 @@
+*
+{
+    background-color: var(--color-fondo-principal);
+}
+
+html {
+
+    --color-primario: #002f8e;
+    --color-fondo-principal:#FFFFFF ;
+    --colof-barra-principal: #264a91;
+    /*Los colores para los diseñadores*/
+
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+
+
+header {
+    font-size: large;
+    position: relative;
+    max-width: 100%;
+    color: var(--color-primario)
+}
+
+header h1{
+    font-size: 3rem;
+    margin-left: 40%;
+    margin-top: 1%;
+}
+
+header h2{
+    font-size: 1.5rem;
+    margin-bottom: 0%;
+}
+
+header nav {
+    position:absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    word-spacing: 50px;
+    background-color: var(--colof-barra-principal);
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+header nav ul a {
+    color: black;
+}
+
+header img{
+    margin-top: 80px;
+    max-width:40%;
+    height: auto;
+    width:  auto;
+    margin-left: 30%;
+}
+
+blockquote{
+    border-left: 5px solid var(--color-primario);
+    color: black;
+    padding: 0.5rem;
+    font-style: italic;
+}
+
+header button{
+    padding: 1rem;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.linea2 {
+    border-top: 5px solid var(--color-primario);
+    height: 2px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+}
+
+section {
+    max-width: auto;
+    margin: 0 auto;
+}
+
+section h2{
+    color: var(--color-primario);
+}
+
+
+p#centro{
+    text-align: center;
+}
+
+p#ladoI {
+    text-align: center;
+    width: 33%;
+    color: var(--color-primario);
+    margin-top: 0px;
+}
+
+p#centro2{
+    text-align: center;
+    width: 33%;
+    margin-left: 33%;
+    color: var(--color-primario);
+}
+
+p#ladoD {
+    text-align: center;
+    width: 33%;
+    margin-left: 66%;
+    color: var(--color-primario);
+}
+
+section#datos2{
+    text-align: center;
+}
+
+section#datos2 h2{
+    margin-top: 20%;
+}
+
+section#datos2 p#der{
+    margin: 2% 5% auto 55%;
+}
+
+section#datos2 h2#img4{
+    max-width: 30%;
+    margin-left: 10%;
+}
+
+.linea3{
+    border-top: 5px solid var(--color-primario);
+    height: 2px;
+    max-width: 100%;
+    margin: auto 15% auto 65%;
+    
+}
+
+.linea4{
+    border-top: 5px solid var(--color-primario);
+    height: 2px;
+    max-width: 100%;
+    margin: auto 65% auto 15%;
+    
+}
+
+section#datos2 p#izq{
+    margin: 2% 55% 15% 5%;
+}
+
+section#accesorios h2#h2{
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+.accesorios {
+    border: 1px solid #999999;
+    border-radius: 1rem;
+    max-width: 33%;
+    display: inline-block;
+    margin: 1rem;
+    padding: 2rem 4rem;
+}
+
+.experiencias{
+    border-radius: 1rem;
+    max-width: 20%;
+    display: inline-block;
+    padding: 0rem 4rem;
+}
+
+
+/*imagenes*/
+
+img#imginicio{
+    height: 50px;
+    width: 50xp;
+    margin-left: 0%;
+}
+
+#imagen2
+{
+    max-width:50%;
+    float: right;
+}
+
+#imgdatos
+{
+    float: left;
+    margin-top: 3%;
+    margin-left: 4%;
+    height: 100px;
+    width: 120px;
+}
+
+#imagen3
+{
+    max-width: 50%;
+    float: left;
+}
+
+#imagen4
+{
+    max-width: 50%;
+    float: right;
+    margin-top: 16%;
+}
+
+#imagen5
+{
+    max-width: 50%;
+    float: right;
+    margin-top: 5%;
+}
+
+.accesorios img{
+    max-width: 100%;
+}
+
+.experiencias img{
+    max-width: 100%;
+    border-radius: 500%;
+}
+
+
+/*footer*/
+footer {
+    margin-top: 4rem;
+    background-color: var(--color-primario);
+    text-align: center;
+    padding: 2rem;
+    color: black;
+    font-size: 1.5rem;
+}
